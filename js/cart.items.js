@@ -50,7 +50,7 @@ function addProductToBag(data) {
 // Main Code =======================================================================================================
 
 // fetch ip_api global
-const ip_api = "http://localhost:3030";
+const ip_api = "http://44.203.56.56:3030";
 
 async function fetchProductData() {
   try {
