@@ -50,12 +50,12 @@ function addProductToBag(data) {
 // Main Code =======================================================================================================
 
 // fetch ip_api global
-// const ip_api = "http://localhost:3030";
+const ip_api = "http://localhost:3030";
 
 async function fetchProductData() {
   try {
     // Fetch product data from the specified URL
-    const response = await fetch(ip + "/shoppingcart");
+    const response = await fetch(ip_api + "/shoppingcart");
     if (!response.ok) {
       throw new Error("Failed to fetch data");
     }
